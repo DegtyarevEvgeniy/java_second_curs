@@ -6,13 +6,13 @@ import v.ElectricCar;
 public class Main {
     public static void main(String[] args) {
         //Объект класса Car
-        Car myCar = new Car("Владик", 2291489, "Самогонный");
+        Car myCar = new Car("Владик", 2291489, "Бензиновый");
         System.out.println("Владелец машины: " + myCar.get_OwnerName());
         System.out.println("Страховой номер машины: " + myCar.get_InsuranceNumber());
         System.out.println("Тип двигателя машины: " + myCar.get_EngineType());
 
         //Объект класса ElectricCar
-        ElectricCar myElectricCar = new ElectricCar("Илон Саск", 7355608, 120);
+        ElectricCar myElectricCar = new ElectricCar("Илон М", 7355608, 120);
         System.out.println("Владелец электромобиля: " + myElectricCar.get_OwnerName());
         System.out.println("Страховой номер электромобиля: " + myElectricCar.get_InsuranceNumber());
         System.out.println("Тип двигателя электромобиля: " + myElectricCar.get_EngineType());
