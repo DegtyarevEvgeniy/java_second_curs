@@ -4,7 +4,7 @@ public class ElectricCar extends Car {
     private int batteryCapacity;
 
     public ElectricCar(String ownerName, int insuranceNumber, int batteryCapacity) {
-        //вот эта хренотень обращается к папане (родительский класс, super) и передает параметры
+        //обращается к (родительский класс, super) и передает параметры
         super(ownerName, insuranceNumber, "Electric");
         this.batteryCapacity = batteryCapacity;
     }
