@@ -1,7 +1,7 @@
 package app;
 
-import vehicles.Car;
-import vehicles.ElectricCar;
+import v.Car;
+import v.ElectricCar;
 
 public class Main {
     public static void main(String[] args) {
