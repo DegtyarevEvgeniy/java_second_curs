@@ -1,4 +1,4 @@
-package vehicles;
+package v;
 
 public class Car {
     private String ownerName;
